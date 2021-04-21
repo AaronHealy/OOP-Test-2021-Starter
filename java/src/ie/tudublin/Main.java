@@ -1,13 +1,12 @@
 package ie.tudublin;
 
-import java.util.ArrayList;
 
 public class Main
 {
     public void helloProcessing1()
     {
         String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new ScoreDisplay());
+        Processing.core.PApplet.runSketch( a, new ScoreDisplay());
     }
 
     public static void main(String[] args)
@@ -16,4 +15,5 @@ public class Main
         main.helloProcessing1();
 
     }
-} 
+
+}
